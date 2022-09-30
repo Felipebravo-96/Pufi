@@ -1,0 +1,52 @@
+.mainContainer{
+    /* background-color: rgb(38, 0, 255); */
+
+    height: 100vh;
+    text-align:center
+    
+    
+}
+.containers{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+   
+}
+.header{
+    
+    width: 100vw;
+    
+}
+.body{
+    
+    overflow: hidden;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.frase{
+    padding-top: 150px;
+    font-size: 30px;
+    color:midnightblue;
+}
+.footer{
+    background-color: rgba(255, 255, 255, 0.541)
+}
+
+.button{
+    background: transparent;
+    color: midnightblue;
+    border-color:midnightblue;
+    border-width: 5px;
+    padding: 5px;
+    font-size: 30px;
+}
+.button:hover {
+    background-color: darkcyan;
+    color: white;
+}

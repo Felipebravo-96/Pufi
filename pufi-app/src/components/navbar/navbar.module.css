@@ -1,0 +1,51 @@
+.container{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo{
+    
+    font-size: 50px;
+    
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    ;
+    gap: 10px;
+    font-size: 10px;
+    align-items: flex-start;
+}
+.icon{
+    font-size: 45px;
+    margin-bottom: 15px;
+    margin-top: 2px;
+}
+
+.account{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    gap: 20px;
+    font-size: 8px;
+    align-items: flex-start;
+}
+
+.puff{
+    border-right: 2px solid gray;
+    padding-right: 15px;
+    
+}
+.rain{
+    border-right: 2px solid gray;
+    padding-right: 15px;
+   
+}
+.cart{
+    border-right: 2px solid gray;
+    padding-right: 15px;
+ 
+}

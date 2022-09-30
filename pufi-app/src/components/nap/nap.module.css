@@ -1,0 +1,78 @@
+.mainContainer{
+    /* background-color: rgb(38, 0, 255); */
+
+    height: 100vh;
+    text-align:center
+    
+    
+}
+.containers{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    
+   
+}
+.header{
+    
+    width: 100vw;
+    
+}
+.body{
+    
+   
+    height: 69.9vh;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+   
+}
+.frase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vh;
+    padding-top: 60px;
+    font-size: 20px;
+    color:black;
+    background-color: white;
+    gap: 35px;
+}
+.title{
+    border-bottom: 2px solid gray;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.image{
+    background-image: url("https://laopinion.com/wp-content/uploads/sites/3/2019/03/shutterstock_372480811.jpg?quality=60&strip=all&w=1000");
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+
+.button{
+    background: transparent;
+    color: midnightblue;
+    border-color: midnightblue;
+    border-width: 5px;
+    padding: 5px;
+    font-size: 30px;
+}
+.button:hover {
+    background-color:  darkcyan;
+    color: white;
+}
