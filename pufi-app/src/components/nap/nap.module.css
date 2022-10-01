@@ -44,6 +44,7 @@
 }
 .title{
     border-bottom: 2px solid gray;
+    font-family: 'Shadows Into Light', cursive;
 }
 .img{
     width: 200px;
@@ -66,13 +67,14 @@
 
 .button{
     background: transparent;
-    color: midnightblue;
-    border-color: midnightblue;
-    border-width: 5px;
+    color: black;
+    border-color: black;
+    border-width: 3px;
     padding: 5px;
     font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
 }
 .button:hover {
-    background-color:  darkcyan;
-    color: white;
+    background-color:  rgba(255, 255, 255, 0.452);
+    color: black;
 }

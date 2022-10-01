@@ -17,7 +17,7 @@ function Nap(){
                     <div className={style.frase}>
                         <img src="https://http2.mlstatic.com/D_NQ_NP_739678-MCO31063172535_062019-V.jpg" className={style.img}/>
                         <h1 className={style.title}>Pufi NAP</h1>
-                        <p>Por su peso y tamaño es el asiento perfecto para transportarlo y sentarte cómodamente en la playa, piscina, camping, picnic o cualquier excursión.</p>
+                        <p>Materiales ligeros y duraderos que permiten un mejor confort, tamaño ideal para llevarlo siempre contigo. Variedad de colores.</p>
                         <h5> VER MAS</h5>
                     </div>
                 </div>

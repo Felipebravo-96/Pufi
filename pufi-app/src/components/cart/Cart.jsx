@@ -16,7 +16,7 @@ function Cart(){
                     <div className={style.frase}>
                         <img src="https://www.tiendanipace.org/wp-content/uploads/2021/04/bolsa-reutilizable-publicitaria.jpg" className={style.img}/>
                         <h1 className={style.title}>Pufi CART</h1>
-                        <p>Por su peso y tamaño es el asiento perfecto para transportarlo y sentarte cómodamente en la playa, piscina, camping, picnic o cualquier excursión.</p>
+                        <p>Bolsa ecológica, con gran capacidad de carga. Diferentes estampados y colores.</p>
                         <h5> VER MAS</h5>
                     </div>
                     <div className={style.image}>

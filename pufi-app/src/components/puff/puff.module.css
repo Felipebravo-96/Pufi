@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+.font{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
 .mainContainer{
     /* background-color: rgb(38, 0, 255); */
 
@@ -41,9 +47,11 @@
     color:black;
     background-color: white;
     gap: 35px;
+    
 }
 .title{
     border-bottom: 2px solid gray;
+    font-family: 'Shadows Into Light', cursive;
 }
 .img{
     width: 200px;
@@ -71,13 +79,14 @@
 
 .button{
     background: transparent;
-    color: midnightblue;
-    border-color: midnightblue;
-    border-width: 5px;
+    color: black;
+    border-color: black;
+    border-width: 3px;
     padding: 5px;
     font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
 }
 .button:hover {
-    background-color:  darkcyan;
-    color: white;
+    background-color:  rgba(255, 255, 255, 0.452);
+    color: black;
 }

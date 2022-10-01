@@ -7,42 +7,42 @@ function Navbar(){
     return(
         <div className={s.container}>
             <div className={s.logo}>
-                <Link to={'/'}>
-                    <h1>Pufi</h1>
+                <Link to={'/'} className={s.text}>
+                    <h1 className={s.font}>Pufi</h1>
                 </Link>
             </div>
             <div className={s.links}>
                 <div className={s.puff}>
-                    <Link  to={'/puff'}>
+                    <Link  to={'/puff'} className={s.text}>
                         <BsFillCloudFill className={s.icon}/>
-                        <h1>PUFI PUFF</h1>
+                        <h1 className={s.font}>PUFI PUFF</h1>
                     </Link>
                 </div>
                 <div className={s.rain}>
-                    <Link to={'/rain'}>
+                    <Link to={'/rain'} className={s.text}>
                         <BsFillUmbrellaFill className={s.icon}/>
-                        <h1>PUFI RAIN</h1>
+                        <h1 className={s.font}>PUFI RAIN</h1>
                     </Link>
                 </div>
                 <div className={s.cart}>
-                    <Link to={'/cart'}>
+                    <Link to={'/cart'} className={s.text}>
                         <BsFillBasketFill className={s.icon}/>
-                        <h1>PUFI CART</h1>
+                        <h1 className={s.font}>PUFI CART</h1>
                     </Link>
                 </div>
                 <div>
-                    <Link to={'/nap'}>
+                    <Link to={'/nap'} className={s.text}>
                         <BsFillMouse3Fill className={s.icon}/>
-                        <h1>PUFI NAP</h1>
+                        <h1 className={s.font}>PUFI NAP</h1>
                     </Link>
                 </div> 
             </div>
             <div className={s.account}>
                 <div className={s.puff}>
-                    <h1>MI CUENTA</h1>
+                    <h1 className={s.font}>MI CUENTA</h1>
                 </div>
                 <div>
-                    <h1>MI COMPRA</h1>
+                    <h1 className={s.font}>MI COMPRA</h1>
                 </div>             
             </div>
         </div>

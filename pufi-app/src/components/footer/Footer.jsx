@@ -1,5 +1,5 @@
 import s from './footer.module.css'
-import {BsFillShieldLockFill, BsFacebook, BsInstagram, BsTwitter} from 'react-icons/bs'
+import {BsFillShieldLockFill, BsFacebook, BsInstagram, BsTwitter, BsFillStarFill} from 'react-icons/bs'
 
 function Footer(){
     return(
@@ -38,8 +38,9 @@ function Footer(){
                 <div>
                     <h1>PUFI Copyright 2017 - Todos los derechos reservados</h1>
                 </div>
-                <div>
-                    <h1>LOGO</h1>
+                <div className={s.purchase}>
+                    <BsFillStarFill />
+                    <h1>BRANDLIVE</h1>
                 </div>  
             </div>                                
         </div>

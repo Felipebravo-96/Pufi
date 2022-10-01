@@ -17,13 +17,11 @@ function Rain(){
                     <div className={style.frase}>
                         <img src="https://falabella.scene7.com/is/image/FalabellaCO/4269960_1?wid=800&hei=800&qlt=70" alt='image' className={style.img}/>
                         <h1 className={style.title}>Pufi RAIN</h1>
-                        <p>Sombrilla Paraguas Automática 8 Varillas Fibra De Vidrio</p>
+                        <p>Hecha de un material liviano y resistente, mango ergonómico, diseñada para resguardar del sol y la lluvia.</p>
                         <h5> VER MAS</h5>
                     </div>
                 </div>
-                {/* <div className={style.footer}>
-                    <Footer/>
-                </div> */}
+ 
             </div>
         </div>
         </div>

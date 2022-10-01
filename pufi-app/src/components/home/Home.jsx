@@ -13,20 +13,20 @@ function Home(){
                 </div>
                 <div className={style.body}>
                     <div className={style.frase}>
-                        <h1>ESTÁR CÓMODO,<br/> NUNCA FUE TAN FÁCIL</h1>
+                        <h1 className={style.font}>ESTÁR CÓMODO,<br/> NUNCA FUE TAN FÁCIL</h1>
                     </div>
                     <div>
                         <button className={style.button}>SHOP</button>
                     </div>
-                    <div>
+                    <div className={style.circleDiv}>
                         <Link to={'/'}>
-                            <button>o</button>
+                            <button  className={style.circle}></button>
                         </Link>
                         <Link to={'/instagram'}>
-                            <button>o</button>
+                            <button  className={style.circle}></button>
                         </Link>
                         <Link to={'/newsletter'}>
-                            <button>o</button>
+                            <button className={style.circle}></button>
                         </Link>
                     </div>
                 </div>

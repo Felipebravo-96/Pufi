@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+.font{
+    font-family: 'Shadows Into Light', cursive;
+}
+
 .mainContainer{
     /* background-color: rgb(38, 0, 255); */
 
@@ -33,6 +38,10 @@
     font-size: 6px;
     color:midnightblue;
 }
+.hash{
+    color:midnightblue; 
+    
+}
 .img{
     height: 450px;
     width: 600px;
@@ -52,4 +61,23 @@
 .button:hover {
     background-color: darkcyan;
     color: white;
+}
+.circleDiv{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.circle{
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    box-shadow: 2px 2px 2px  1px rgba(83, 81, 81, 20);
+}
+.circle:hover {
+    background-color: white;
+    
 }

@@ -13,23 +13,23 @@ function Instagram(){
                 </div>
                 <div className={style.body}>
                     <div className={style.frase}>
-                        <h1>INSTAGRAM</h1>
+                        <h1 className={style.font}>INSTAGRAM</h1>
                     </div>
-                    <div >
-                        <h1>#ESPUFI</h1>
+                    <div className={style.hash}>
+                        <h1 className={style.font}>#ESPUFI</h1>
                     </div>
                     <div>
                         <img src={fotos} alt='imagen' className={style.img}/>
                     </div>
-                    <div>
+                    <div className={style.circleDiv}>
                         <Link to={'/'}>
-                            <button>o</button>
+                            <button className={style.circle}></button>
                         </Link>
                         <Link to={'/instagram'}>
-                            <button>o</button>
+                            <button className={style.circle}></button>
                         </Link>
                         <Link to={'/newsletter'}>
-                            <button>o</button>
+                            <button className={style.circle}></button>
                         </Link>
                     </div>
                 </div>

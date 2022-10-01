@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
 .mainContainer{
     /* background-color: rgb(38, 0, 255); */
 
@@ -27,12 +30,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 
 }
 .frase{
     padding-top: 150px;
     font-size: 30px;
-    color:midnightblue;
+    color:black;
+ 
 }
 .footer{
     background-color: rgba(255, 255, 255, 0.541)
@@ -40,13 +45,37 @@
 
 .button{
     background: transparent;
-    color: midnightblue;
-    border-color:midnightblue;
-    border-width: 5px;
+    color: black;
+    border-color: black;
+    border-width: 3px;
     padding: 5px;
     font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
 }
 .button:hover {
-    background-color: darkcyan;
-    color: white;
+    background-color:  rgba(255, 255, 255, 0.452);
+    color: black;
+}
+
+.circleDiv{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.circle{
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    box-shadow: 2px 2px 2px  1px rgba(83, 81, 81, 20);
+}
+.circle:hover {
+    background-color: white;
+    
+}
+.font{
+    font-family: 'Shadows Into Light', cursive;
 }

@@ -1,22 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 .container{
     padding-top: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+    
+}
+.text{
+    text-decoration: none;
+    color: whitesmoke;
+    
+  
 }
 .logo{
     
-    font-size: 50px;
+    font-size: 40px;
     
+    
+   
 }
 .links{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    ;
+    justify-content: space-between;;
     gap: 10px;
     font-size: 10px;
     align-items: flex-start;
+    
+    
 }
 .icon{
     font-size: 45px;
@@ -32,20 +45,25 @@
     gap: 20px;
     font-size: 8px;
     align-items: flex-start;
+    color: whitesmoke;
 }
 
 .puff{
-    border-right: 2px solid gray;
+    border-right: 2px solid rgba(128, 128, 128, 0.575);
     padding-right: 15px;
+    
     
 }
 .rain{
-    border-right: 2px solid gray;
+    border-right: 2px solid rgba(128, 128, 128, 0.575);
     padding-right: 15px;
    
 }
 .cart{
-    border-right: 2px solid gray;
+    border-right: 2px solid rgba(128, 128, 128, 0.575);
     padding-right: 15px;
  
+}
+.font{
+    font-family: 'Shadows Into Light', cursive;
 }
